@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>浮阅X 隐私政策</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; font: 16px/1.65 system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: #0f1419; color: #e7e9ea; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    .meta { color: #8b98a5; margin-bottom: 32px; }
+    h2 { font-size: 18px; margin: 28px 0 10px; }
+    p, li { color: #d6dde3; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; }
+    th, td { border: 1px solid #2f3336; padding: 10px 12px; text-align: left; vertical-align: top; }
+    th { background: #16181c; }
+    a { color: #6eb6e0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>浮阅X 隐私政策</h1>
+    <p class="meta">最后更新：2026-10-08 · 产品名：浮阅X（FloatRead X）</p>
+
+    <p>浮阅X 是一款在本机浏览器中运行的扩展，用于在网页版 X（x.com / twitter.com）以双栏浮层阅读帖子。本扩展不运营后端服务器。</p>
+
+    <h2>1. 我们处理哪些数据</h2>
+    <ul>
+      <li>读取当前已登录 X 标签页中的帖子、评论、作者与媒体信息，仅用于浮层展示。</li>
+      <li>使用浏览器中的 X 登录会话，向 X 官方接口完成点赞、转发、收藏、关注、回复、翻译等操作。</li>
+      <li>使用 Chrome storage 保存本地偏好（开关、主题、字号、护眼时段等）。不保存帖子正文、译文或登录凭据。</li>
+    </ul>
+
+    <h2>2. 权限用途</h2>
+    <table>
+      <tr><th>权限</th><th>用途</th></tr>
+      <tr><td>storage</td><td>保存本地偏好设置</td></tr>
+      <tr><td>x.com / twitter.com</td><td>注入浮层，并用当前登录会话读写帖子</td></tr>
+    </table>
+    <p>不申请 Cookie、tabs、webRequest、declarativeNetRequest、剪贴板或全站访问权限。</p>
+
+    <h2>3. 我们不会做什么</h2>
+    <ul>
+      <li>不会把 X 内容、Cookie、登录凭据或 CSRF 发给第三方服务器。</li>
+      <li>不会把会话凭据写入扩展存储或日志。</li>
+      <li>不会加载远程扩展代码；视频播放组件随扩展本地打包。</li>
+    </ul>
+
+    <h2>4. 第三方</h2>
+    <p>账号相关请求由 X / Twitter 处理，并受其服务条款与隐私政策约束。</p>
+
+    <h2>5. 删除数据</h2>
+    <p>卸载扩展即可删除本机偏好设置。你在 X 上产生的内容仍由 X 账号体系管理。</p>
+
+    <h2>6. 联系</h2>
+    <p>请通过 Chrome 应用商店「浮阅X」扩展页的支持渠道联系开发者。</p>
+  </main>
+</body>
+</html>
