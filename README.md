@@ -30,9 +30,12 @@ npm run pack:store
 按 `chrome-store/LISTING.md` 与 `chrome-store/UPLOAD.txt` 操作：
 
 1. 注册 [Chrome 开发者账号](https://chrome.google.com/webstore/devconsole)
-2. 把 `chrome-store/privacy.html` 托管到可公网访问地址，填入「隐私权政策」
+2. 隐私政策 URL（已托管）：https://zfchen163.github.io/floatread-x/privacy.html
 3. 上传 `chrome-store/floatread-x-*.zip`
-4. 补充 1280×800 真实截图与商店文案
+4. 补充 1280×800 真实截图与商店文案（见 `chrome-store/LISTING.md`）
+
+项目主页：https://zfchen163.github.io/floatread-x/  
+源码仓库：https://github.com/zfchen163/floatread-x
 
 ## 品牌
 

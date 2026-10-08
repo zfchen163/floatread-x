@@ -56,7 +56,7 @@
 
 1. **小图标**：已由构建生成 `dist-extension/icons/icon128.png`
 2. **截图至少 1 张**：1280×800 或 640×400，建议截真实浮层界面 3–5 张
-3. **隐私政策 URL**：把 `privacy.html` 放到 GitHub Pages / 个人站点后填入后台
+3. **隐私政策 URL（已就绪）**：https://zfchen163.github.io/floatread-x/privacy.html
 4. **开发者账号**：Chrome Web Store 一次性注册费（通常 $5）
 
 ## 上传包

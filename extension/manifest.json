@@ -4,6 +4,7 @@
   "short_name": "浮阅X",
   "version": "1.0.0",
   "description": "在 X 时间线点开帖子不跳转：左侧原文、右侧评论，支持夜间护眼、定时护眼、专注模式、字号调节与基础互动。",
+  "homepage_url": "https://zfchen163.github.io/floatread-x/",
   "permissions": ["storage"],
   "host_permissions": ["https://x.com/*", "https://twitter.com/*"],
   "action": {
