@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮阅X</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup-card">
+      <header>
+        <img src="../icons/icon48.png" alt="">
+        <div>
+          <strong>浮阅X</strong>
+          <span>点开帖子不跳转 · 双栏浮层阅读</span>
+        </div>
+      </header>
+      <section class="settings-list">
+        <label class="toggle-row">
+          <div><strong>启用浮层</strong><span>点击帖子正文时打开</span></div>
+          <input id="enabled" type="checkbox" checked>
+          <span class="toggle" aria-hidden="true"></span>
+        </label>
+        <label class="toggle-row">
+          <div><strong>自动翻译外语帖子</strong><span>默认显示中文，可随时看原文</span></div>
+          <input id="auto-translate" type="checkbox" checked>
+          <span class="toggle" aria-hidden="true"></span>
+        </label>
+        <label class="toggle-row">
+          <div><strong>默认专注模式</strong><span>打开浮层时先只看正文</span></div>
+          <input id="focus-mode" type="checkbox">
+          <span class="toggle" aria-hidden="true"></span>
+        </label>
+        <label class="toggle-row">
+          <div><strong>定时夜间护眼</strong><span>跟随 X 主题时，时段内自动护眼</span></div>
+          <input id="schedule-eyecare" type="checkbox" checked>
+          <span class="toggle" aria-hidden="true"></span>
+        </label>
+        <div class="select-row schedule-row">
+          <div><strong>护眼时段</strong><span>支持跨午夜，如 21:00–07:00</span></div>
+          <div class="time-pair">
+            <input id="schedule-start" type="time" value="21:00" aria-label="护眼开始时间">
+            <span>至</span>
+            <input id="schedule-end" type="time" value="07:00" aria-label="护眼结束时间">
+          </div>
+        </div>
+        <div class="select-row">
+          <div><strong>浮层外观</strong><span>手动指定会覆盖定时护眼</span></div>
+          <select id="theme-mode" aria-label="浮层外观">
+            <option value="auto">跟随 X</option>
+            <option value="light">浅色</option>
+            <option value="dim">熄灯蓝</option>
+            <option value="dark">暗色</option>
+            <option value="eyecare">夜间护眼</option>
+          </select>
+        </div>
+        <div class="select-row">
+          <div><strong>正文字号</strong><span>长文阅读可调大</span></div>
+          <select id="font-scale" aria-label="正文字号">
+            <option value="sm">小</option>
+            <option value="md" selected>标准</option>
+            <option value="lg">大</option>
+            <option value="xl">更大</option>
+          </select>
+        </div>
+      </section>
+      <section class="privacy-note">
+        <span data-phosphor-icon="shield-check" aria-hidden="true"></span>
+        <p>浮阅X 只在本机通过你已登录的 X 会话读写内容；不申请 Cookie 权限，也不把帖子发到第三方服务器。</p>
+      </section>
+      <footer id="status">已开启</footer>
+    </main>
+    <script src="../vendor/phosphor/icons.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

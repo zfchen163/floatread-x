@@ -1,0 +1,5 @@
+node_modules/
+dist/
+dist-client/
+.DS_Store
+chrome-store/_stage/

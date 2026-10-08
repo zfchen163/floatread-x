@@ -1,0 +1,8 @@
+# 浮阅X 1.0.0 上架包
+
+- 上传文件：`floatread-x-1.0.0.zip`
+- 扩展名：浮阅X · 帖子双栏浮层阅读器
+- 版本：1.0.0
+- 先托管 chrome-store/privacy.html，把公网 URL 填进商店「隐私权政策」
+- 再上传 1280×800 真实截图（建议：时间线浮层、护眼主题、专注模式、设置弹窗）
+- Developer Dashboard：https://chrome.google.com/webstore/devconsole
